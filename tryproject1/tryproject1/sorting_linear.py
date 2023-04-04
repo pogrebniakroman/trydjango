@@ -1,6 +1,4 @@
-#linear_search_number = int(input('Enter search number: '))
 list_input = input('Enter list numbers separated by space: ')
-print("\n")
 list = list_input.split()
 print(list)
 for i in range(len(list)):
@@ -13,6 +11,8 @@ def linear_search(list_input):
             print('Search number: ', search_number)
             print('Id number: ', i)
             break
+    else:
+        print('Number not found')
 
 
 linear_search(list_input)
