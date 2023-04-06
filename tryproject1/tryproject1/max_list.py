@@ -7,3 +7,6 @@ for i in range(1, len(max_list)):
         max_list[i], max_list[i - 1] = max_list[i - 1], max_list[i]
         i = i - 1
 print(max_list)
+
+
+
