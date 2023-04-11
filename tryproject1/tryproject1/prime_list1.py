@@ -1,4 +1,4 @@
-"""
+
 number = int(input('Enter prime check number: '))  # Enter value
 
 def isPrime_checker(number):
@@ -35,12 +35,7 @@ def checker():
     return prime_list
 
 print(checker())
-"""
 
-print('First programm- Python programm function')
-print('It is declared like this: ')
-print("print('what to print')")
-print("Hello\nHello python\nPikus\n")
-print(6*"Roman\'s Lectures\n")
+
 
 

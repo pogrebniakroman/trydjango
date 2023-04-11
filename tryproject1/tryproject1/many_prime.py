@@ -8,7 +8,7 @@ def isPrime_checker(number):
             return False
         else:
             return True
-    return isPrime_checker(number)
+   
 print('Prime check number: ', isPrime_checker(number))
 #This function is supposed to generate those many prime numbers, as taken as input argument 'num'
 
