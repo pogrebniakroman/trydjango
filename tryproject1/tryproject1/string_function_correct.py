@@ -23,4 +23,5 @@ print(fruit1.symmetric_difference(fruit2))
 print(fruit1.difference(fruit2))
 print(fruit2.difference(fruit1))
 print(fruit1.intersection(fruit2))
+print(fruit1.intersection(fruit2))
 
