@@ -13,7 +13,6 @@ print('Prime check number: ', isPrime_checker(number))
 #This function is supposed to generate those many prime numbers, as taken as input argument 'num'
 
 num = int(input('Enter range number: '))
-
 def prime_checker(num):
     prime_checker_list = []
     i = 0
